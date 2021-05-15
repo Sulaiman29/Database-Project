@@ -1,0 +1,50 @@
+﻿h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+.proName {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: 'Century Gothic';
+}
+
+
+.proBrand, .proID, .proQuantity{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Comic Sans MS';
+}
+
+.proPrice{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'sans-serif';
+    font-weight: 600;
+}
+
+.Original{
+    font-size: 13px;
+    font-family: 'sans-serif';
+    font-weight: 400;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.Discount {
+    font-size: 15px;
+    font-family: 'sans-serif';
+    font-weight: 400;
+    color: deeppink;
+}
+
+.thumbnail > img{
+    height: 200px;
+    width: 350px;
+}
+
+.thumbnail{
+    height: 500px;
+}

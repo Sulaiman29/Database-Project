@@ -1,0 +1,70 @@
+﻿body {
+    background: url("../images/background.jpg") repeat-y right top;
+    padding-top: 115px;
+}
+
+.navbar{
+    height: 115px;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 40px;
+    line-height: 20px;
+    font-family: 'Dungeon'
+}
+
+.navbar-inverse .navbar-brand{
+    color: crimson
+}
+.navbar-inverse {
+    background-color: #000;
+    border-color: #eeeeee;
+}
+
+
+
+p{
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+.center
+{
+    text-align:center;
+}
+
+
+
+.loader
+{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: black;
+    position: absolute;
+}
+
+.loader>div{
+    height: 100px;
+    width: 100px;
+    border: 15px solid black;
+    border-top-color: red;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: spin 1.5s infinite linear;
+}
+
+@keyframes spin{
+    100%{
+        transform:rotate(360deg);
+    }
+}
