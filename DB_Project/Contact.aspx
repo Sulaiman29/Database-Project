@@ -47,6 +47,7 @@
         <asp:TextBox class="text"  runat="server" placeholder="Your Name"> </asp:TextBox>
         <asp:TextBox class="text"  runat="server" placeholder="Your Email"> </asp:TextBox>
         <asp:TextBox class="message"  runat="server" placeholder="Your Message"> </asp:TextBox>
+        <asp:Button ID="Button2" CssClass="btn" runat="server" Text="home" PostBackUrl="~/Home.aspx" />
         <asp:Button class="btn" ID="Button1" runat="server" Text="Send" />
     </form>
        

@@ -8,56 +8,37 @@
 </video>
 
     <!--images -->
-    <div class="container-a4">
-		<ul class="caption-style-4">
-			<li>
-				<img src="images/Team/sulaiman.jpg" alt="">
-				<div class="caption">
-					<div class="blur"></div>
-					<div class="caption-text">
-						<h1>Muhammad Sulaiman Javed</h1>
-						<p>19L-1129</p>
-					</div>
-				</div>
-			</li>
+	<div class="row">
 
-
-			<li>
-				<img src="images/Team/nawal.jpeg" alt="">
-				<div class="caption">
-					<div class="blur"></div>
-					<div class="caption-text">
-						<h1>Mohammad Nawal Ali</h1>
-						<p>19L-1048</p>
-					</div>
-				</div>
-			</li>
-
-
-			<li>
-				<img src="images/Team/yahya.jpeg" alt="">
-				<div class="caption">
-					<div class="blur"></div>
-					<div class="caption-text">
-						<h1>Yahya Khan</h1>
-						<p>19L-1065</p>
-					</div>
-				</div>
-			</li>
-
-
-			<li>
-				<img src="images/Team/hussain.jpeg" alt="">
-				<div class="caption">
-					<div class="blur"></div>
-					<div class="caption-text">
-						<h1>Muhammad Hussain Raza</h1>
-						<p>19L-2292</p>
-					</div>
-				</div>
-			</li>
-			
-		</ul>
+	<div class="container-for-img col-xs-3 col-lg-3">
+		<img src="images/Team/sulaiman.jpg" alt="Avatar" class="image" >
+		<div class="middle">
+			<div class="text">Muhammad Sulaiman Javed 19L-1129</div>
+		</div>
 	</div>
+
+	<div class="container-for-img col-xs-3 col-lg-3">
+		<img src="images/Team/nawal.jpeg" alt="Avatar" class="image" >
+		<div class="middle">
+			<div class="text">Mohammad Nawal Ali 19L-1048</div>
+		</div>
+	</div>
+
+		<div class="container-for-img col-xs-3 col-lg-3">
+		<img src="images/Team/yahya.jpeg" alt="Avatar" class="image" >
+		<div class="middle">
+			<div class="text">Yahya Khan 19L-1065</div>
+		</div>
+	</div>
+
+		<div class="container-for-img col-xs-3 col-lg-3">
+		<img src="images/Team/hussain.jpeg" alt="Avatar" class="image" >
+		<div class="middle">
+			<div class="text">Muhammad Hussain Raza 19L-2292</div>
+		</div>
+	</div>
+
+		</div>
+   
 
 </asp:Content>
