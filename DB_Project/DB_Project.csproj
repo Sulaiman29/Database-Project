@@ -77,9 +77,12 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\contact.css" />
+    <Content Include="css\cs.css" />
+    <Content Include="css\new.css" />
     <Content Include="css\ProductView.css" />
     <Content Include="css\style.css" />
     <Content Include="css\StyleSheet1.css" />
+    <Content Include="CustomerSupport.aspx" />
     <Content Include="Deals.aspx" />
     <Content Include="Dell-1.aspx" />
     <Content Include="Dell-2.aspx" />
@@ -89,6 +92,7 @@
     <Content Include="HP-1.aspx" />
     <Content Include="HP-2.aspx" />
     <Content Include="images\background.jpg" />
+    <Content Include="images\bgr2.jpg" />
     <Content Include="images\carousel-1.jpg" />
     <Content Include="images\carousel-2.jpg" />
     <Content Include="images\carousel-3.jpg" />
@@ -159,6 +163,7 @@
     <Content Include="Lenovo-1.aspx" />
     <Content Include="Lenovo-2.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Review.aspx" />
     <Content Include="SignUp.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -197,6 +202,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerSupport.aspx.cs">
+      <DependentUpon>CustomerSupport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerSupport.aspx.designer.cs">
+      <DependentUpon>CustomerSupport.aspx</DependentUpon>
     </Compile>
     <Compile Include="Deals.aspx.cs">
       <DependentUpon>Deals.aspx</DependentUpon>
@@ -269,6 +281,13 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Review.aspx.cs">
+      <DependentUpon>Review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Review.aspx.designer.cs">
+      <DependentUpon>Review.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

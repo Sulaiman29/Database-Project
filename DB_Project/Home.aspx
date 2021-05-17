@@ -71,12 +71,12 @@
                                     </ul>
                                 </li>
                                 <li><a href="Deals.aspx">Deals</a></li>
-                                <li><a href="#">Reviews</a></li>
+                                <li><a href="Review.aspx">Reviews</a></li>
                                 <li><a href="About.aspx">About</a></li>
                                 <li><a href="Contact.aspx">Contact</a></li>
                                 <li><a href="SignUp.aspx">Sign Up</a></li>
                                 <li><a href="Login.aspx">Login</a></li>
-                                <li><a href="#">Customer Support</a></li>
+                                <li><a href="CustomerSupport.aspx">Customer Support</a></li>
                                 
                                 
                                 
@@ -214,6 +214,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- loader -->
     <script>
         jQuery(document).ready(function ($) {
             $(window).load(function () {
@@ -223,14 +224,6 @@
                 }, 50000); // set the time here
             });
         });
-        //$(window).on('load', function(){
-        //    $('loader').fadeout(1000);
-        //    $('.content').fadeIn(1000);
-        //    setTimeout(function () {
-        //        $('loader').fadeOut('slow', function () {
-        //        });
-        //    }, 5000); // set the time here
-        //});
     </script>
 </body>
 </html>
