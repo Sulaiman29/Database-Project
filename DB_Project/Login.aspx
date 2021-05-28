@@ -16,9 +16,9 @@
 
 
         <asp:Label class="Label1" runat="server" Text="Login"></asp:Label>
-          <asp:TextBox class="text" type="text" runat="server" placeholder="Username"></asp:TextBox>
-        <asp:TextBox class="Password" type="Password" runat="server" placeholder="Password"></asp:TextBox>
-        <asp:Button class="Submit1" runat="server" Text="Login" />
+          <asp:TextBox class="text" type="text" runat="server" placeholder="Username" ID="txtuser"></asp:TextBox>
+        <asp:TextBox class="Password" type="Password" runat="server" placeholder="Password" ID="txtpass"></asp:TextBox>
+        <asp:Button class="Submit1" runat="server" Text="Login" OnClick="Unnamed4_Click" />
         <asp:HyperLink ID="forgot" runat="server" NavigateUrl="~/forgot.aspx" >Forgot your Password?</asp:HyperLink>
          <asp:Button class="Submit1" runat="server" Text="Signup" Postbackurl="~/SignUp.aspx"/>
 
